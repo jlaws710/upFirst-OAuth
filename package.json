@@ -1,0 +1,31 @@
+{
+  "name": "upfirst-dev",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.ts",
+  "scripts": {
+    "start": "ts-node src/server.ts",
+    "build": "tsc",
+    "serve": "node dist/server.js"
+  },
+  "author": "Joseph Lawson",
+  "license": "ISC",
+  "dependencies": {
+    "@types/jsonwebtoken": "^9.0.8",
+    "@types/randombytes": "^2.0.3",
+    "crypto": "^1.0.1",
+    "crypto-ts": "^1.0.2",
+    "jsonwebtoken": "^9.0.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^22.13.1",
+    "colors": "^1.4.0",
+    "debug": "^4.4.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "nodemon": "^3.1.9",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
+  }
+}
